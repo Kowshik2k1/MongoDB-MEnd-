@@ -6,4 +6,5 @@
 Paths
 
 /api/ --> Home
+
 /api/users --> Base URL for all the CRUD operations
