@@ -7,7 +7,7 @@ require('dotenv').config();
 // Middleware setup
 app.use(express.json());
 
-// Connect to MongoDB Atlas (Replace <your_connection_string>)
+// Connect to MongoDB Atlas
 mongoose.connect(process.env.MONGO_URL)
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.error("Connection Error:", err));
